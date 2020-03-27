@@ -1,0 +1,137 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+input[type=text] {
+    border: none;
+    background-color: maroon;
+    color: white;
+}
+
+.aboutContainer {
+    background-image: url("./../src/B&W_bg.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.bgimage {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+
+/* .bgimage div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bgimage img {
+    max-width: 500px;
+}
+
+.bgimage p {
+    max-width: 600px;
+}
+
+.bgimage h1 {
+    font-size: 35px;
+}
+
+.bgimage h2 {
+    font-weight: 100;
+} */
+
+footer {
+    margin-top: 20px;
+    padding: 70px 0px 70px 0px;
+    background-color: #3d3a3a;
+}
+
+.footer {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 450px;
+    margin: 0px auto;
+}
+
+.svg {
+    position: relative;
+    right: 39px;
+    height: 35px;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width:774px) {
+    .aboutContainer {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width:433px) {
+    .color div:nth-child(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width:774px) and (min-width:433px) {
+    .bgimage img {
+        margin-top: 50px;
+    }
+    .hedaerinner {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    /* .hedaerinner div:nth-child(1) {
+        width: 40px;
+    }
+    .header .search {
+        margin-right: -35px;
+    }
+    .header .search input {
+        width: 200px;
+        padding: 8px;
+    }
+    .hedaerinner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer div {
+        margin-top: 25px;
+    }
+    .bgimage {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+    .bgimage img {
+        max-width: 319px;
+        margin: auto;
+        margin-bottom: -50px;
+    } */
+}
